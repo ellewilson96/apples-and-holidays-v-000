@@ -62,8 +62,8 @@ def all_supplies_in_holidays(holiday_hash)
       name1.to_s.capitalize!
       name2.to_s.capitalize!
       [name1, name2].join
-      else puts holiday.to_s.capitalize!+":"
-  end
+    end
+  else puts holiday.to_s.capitalize!+":"
 end
 end
 end
