@@ -57,13 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each do |season, holiday|
     puts season.to_s.capitalize!+":"
-    if holiday.to_s.split.size > 1
-    holiday.to_s.split.each do |name1, name2|
-      name1.to_s.capitalize!
-      name2.to_s.capitalize!
-      [name1, name2].join
-    end
-  else puts holiday.to_s.capitalize!+":"
+    puts holiday.to_s.capitalize!+":"
 end
 end
 end
