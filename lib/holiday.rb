@@ -75,3 +75,4 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.collect where supplies.to_s.include?("BBQ") == true
   end
 end
+end
