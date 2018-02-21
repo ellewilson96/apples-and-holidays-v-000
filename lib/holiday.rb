@@ -44,7 +44,6 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-  if holiday_hash[:winter].values.include?
   return holiday_hash[:winter].values
 else
 end
@@ -59,8 +58,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |season, holiday|
-    season.capitalize
-    holiday.capitalize
+    season.
+    holiday.
   end
 end
 
