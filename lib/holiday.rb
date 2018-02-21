@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |name, supplies|
     name.to_s.capitalize!
     supplies.to_s.capitalize!
-    puts "#{name}: #{supplies}"
+    puts name supplies
 end
 end
 end
